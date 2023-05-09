@@ -1,4 +1,4 @@
-package org.example;
+package org.example.exam1;
 
 // 자동차 클래스
 class Car {

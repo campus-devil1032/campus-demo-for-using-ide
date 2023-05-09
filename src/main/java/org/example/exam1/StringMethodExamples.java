@@ -1,4 +1,4 @@
-package org.example;
+package org.example.exam1;
 
 public class StringMethodExamples {
     public static void main(String[] args) {

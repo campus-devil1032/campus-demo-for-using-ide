@@ -1,4 +1,4 @@
-package org.example;
+package org.example.exam1;
 
 public class StringHandling {
     public static String THIS_IS_STATIC_VARIABLE = "123";

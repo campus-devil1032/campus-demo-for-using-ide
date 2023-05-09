@@ -1,4 +1,4 @@
-package org.example.exceptions;
+package org.example.exam1.exceptions;
 
 class DanValueOverflowException extends RuntimeException {
 

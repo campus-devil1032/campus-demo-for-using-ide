@@ -1,4 +1,4 @@
-package org.example;
+package org.example.exam1;
 
 class Vehicle {
     private int num;

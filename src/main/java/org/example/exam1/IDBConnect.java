@@ -1,4 +1,4 @@
-package org.example;
+package org.example.exam1;
 
 interface IDBConnect {
     public void connect();

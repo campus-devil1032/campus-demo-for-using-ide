@@ -1,6 +1,6 @@
-package org.example;
+package org.example.exam1;
 
-import org.example.exceptions.InvalidGasVolumeException;
+import org.example.exam1.exceptions.InvalidGasVolumeException;
 
 class CarWithPrivateMember {
     private int carNumber;
