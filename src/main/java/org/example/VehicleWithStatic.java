@@ -30,6 +30,7 @@ public class VehicleWithStatic {
 
 class VehicleWithStaticMain {
     public static void main(String[] args) {
+
         VehicleWithStatic.getSum();
 
         System.out.println("-----");
@@ -46,4 +47,5 @@ class VehicleWithStaticMain {
         VehicleWithStatic.getSum();
 
     }
+
 }
