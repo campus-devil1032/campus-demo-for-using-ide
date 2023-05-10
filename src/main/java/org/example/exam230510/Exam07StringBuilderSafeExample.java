@@ -3,7 +3,7 @@ package org.example.exam230510;
 public class Exam07StringBuilderSafeExample {
     public static void main(String[] args) throws InterruptedException {
         StringBuilder sb = new StringBuilder();
-
+        StringBuffer sbf = new StringBuffer();
         Runnable runnable = () -> {
             for (int i = 0; i < 1000; i++) {
                 synchronized (sb) {
@@ -78,3 +78,4 @@ public class Exam07StringBuilderSafeExample {
         System.out.println(sb.length()); // 예상 결과: 20000, 실제 결과: 20000
     }
 }
+

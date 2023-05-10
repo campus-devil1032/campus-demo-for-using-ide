@@ -13,7 +13,7 @@ public class Exam05StringBufferExample {
         System.out.println(sb); // "Hello Java, World!"
         
         // 문자열 삭제
-        sb.delete(5, 9);
+        sb.delete(5, 10);
         System.out.println(sb); // "Hello, World!"
         
         // 문자열 수정

@@ -5,7 +5,7 @@ public class CatType2 extends AnimalType2 {
     public int lives;
 
     public CatType2() {
-        super("Animal Name..."); // 부모 클래스의 기본 생성자 호출
+        super(); // 부모 클래스의 기본 생성자 호출
         this.lives = 9;
     }
 

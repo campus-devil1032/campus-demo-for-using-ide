@@ -5,11 +5,12 @@ public class Exam06StringBuilderUnsafeExample {
         StringBuilder sb = new StringBuilder();
 
         Runnable runnable = () -> {
-            for (int i = 0; i < 1000; i++) {
+        	
+            for (int i = 0; i < 100; i++) {
                 sb.append("a"); // 문자열을 추가하는 메서드 호출
             }
         };
-
+        
         Thread thread01 = new Thread(runnable);
         Thread thread02 = new Thread(runnable);
         Thread thread03 = new Thread(runnable);
