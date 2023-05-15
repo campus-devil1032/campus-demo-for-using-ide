@@ -2,7 +2,7 @@ package org.example.exam230515.exam14;
 
 // 인터페이스 정의
 interface Animal {
-    public static final boolean a = true;
+    boolean THIS_IS_VERY_IMPORTANT_BOOLEAN = true;
 
     void makeSound(); // 인터페이스 메서드 (본체가 없습니다)
 }
@@ -23,6 +23,7 @@ class Dog implements Animal {
 }
 
 public class Exam14InterfaceSimple {
+
     public static void main(String[] args) {
         Cat myCat = new Cat(); // Cat 객체 생성
         Dog myDog = new Dog(); // Dog 객체 생성
